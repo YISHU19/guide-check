@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Data is downloaded by src/clean.py; models and predictions are rebuilt by src/run_all.py
+data/raw/
+data/processed/*
+!data/processed/splits_fingerprint.json
+!data/processed/clean_report.json
+data/reference/australian_postcodes.csv
+artefacts/*.pkl
+predictions/
