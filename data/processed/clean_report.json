@@ -1,0 +1,19 @@
+{
+  "rows_after_purpose_and_flag_filters": 1281711,
+  "rows_area_in_hectares_converted": 49683,
+  "dropped_missing_contract_date": 259,
+  "dropped_price_outside_bounds": 4842,
+  "dropped_missing_suburb_or_postcode": 852,
+  "dropped_duplicates": 23219,
+  "dropped_nominal_vs_suburb_type_median": 3272,
+  "dropped_missing_property_id": 43,
+  "sa2_filled_from_postcode": 64,
+  "geocode_matched": 1249163,
+  "geocode_failed": 61,
+  "rows_final": 1249163,
+  "date_min": "1990-01-01",
+  "date_max": "2026-08-20",
+  "pct_with_land_area": 73.5,
+  "n_suburbs": 3945,
+  "n_sa2": 339
+}
