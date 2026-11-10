@@ -1,0 +1,19 @@
+{
+  "freeze_date": "2026-09-16",
+  "git_commit": "HEAD",
+  "split_method": "spatial_group + temporal",
+  "group_key": "sa2_code",
+  "temporal_cutoffs": {
+    "train_end": "2025-01-01",
+    "calib_end": "2025-10-01"
+  },
+  "n_train": 1004180,
+  "n_calib": 125888,
+  "n_test": 119095,
+  "sha256": {
+    "train": "421a63673b4d8a53fca23007242628d19d76fd26bdbc50a1a0cd49434c7a718e",
+    "calib": "054b63abe6589fc3cd176cfb94206a5f44bc2ceca5f3c5125751df18d6bcd38a",
+    "test": "d7230869734cec98016461d8a910e3fedb98d60ce6cead3162788f9958d669e3"
+  },
+  "verify": "Regenerate with 'python src/run_all.py', then run 'python -c \"import sys; sys.path.insert(0,'src'); import split; print(split.fingerprint(write=False))\"' and compare the sha256 values."
+}
