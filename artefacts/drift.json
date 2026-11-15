@@ -1,0 +1,11 @@
+{
+  "delta_log": 0.03568937410890172,
+  "delta_pct": 0.03633388435232221,
+  "qhat_v1": 0.020950655250295824,
+  "qhat_v2": 0.016811502466460126,
+  "estimated_on": "calibration window only",
+  "calib_window": {
+    "train_end": "2025-01-01",
+    "calib_end": "2025-10-01"
+  }
+}
