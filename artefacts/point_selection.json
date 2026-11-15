@@ -1,0 +1,26 @@
+{
+  "selected": "lgbm",
+  "mape_test": {
+    "lgbm": 25.809205944451797,
+    "xgb": 25.89417929742116
+  },
+  "decided_on": "frozen test set",
+  "features": [
+    "land_area_m2",
+    "log_area",
+    "has_area",
+    "lat",
+    "lon",
+    "dist_cbd_km",
+    "sale_year",
+    "sale_month",
+    "days_since_start",
+    "suburb_median_logprice",
+    "suburb_n_sales",
+    "property_type",
+    "zoning",
+    "suburb",
+    "sa2_code",
+    "postcode"
+  ]
+}
