@@ -7,6 +7,12 @@ data/raw/
 data/processed/*
 !data/processed/splits_fingerprint.json
 !data/processed/clean_report.json
+!data/processed/sales_features.parquet
 data/reference/australian_postcodes.csv
 artefacts/*.pkl
+!artefacts/model_lgbm.pkl
+!artefacts/interval_v2.pkl
+!artefacts/comps_index.pkl
+!artefacts/residuals.pkl
 predictions/
+.vercel/
