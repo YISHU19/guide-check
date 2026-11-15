@@ -1,0 +1,20 @@
+[
+  {
+    "arm": "fake_probe",
+    "model_version": "v0-fake",
+    "n": 119376,
+    "MAE": 218874.23744131828,
+    "RMSE": 428876.6878470465,
+    "MAPE_%": 16.878300029816465,
+    "MedAPE_%": 13.612388297088208,
+    "n_with_interval": 119376,
+    "nominal_coverage_%": 80.0,
+    "empirical_coverage_%": 69.99983246213645,
+    "coverage_gap_pp": -10.000167537863547,
+    "mean_width_$": 588199.4470470687,
+    "median_width_$": 435759.4793616818,
+    "mean_width_%_of_price": 45.403144002419594,
+    "pinball_lower": 46663.86033734374,
+    "pinball_upper": 50797.22865781484
+  }
+]
