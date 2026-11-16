@@ -12,8 +12,12 @@ ART = ROOT / "artefacts"
 PRED = ROOT / "predictions"
 RESULTS = ROOT / "results"
 
+# Read-only deployments (Vercel) cannot create folders; serving only reads.
 for _p in (RAW, REF, PROC, ART, PRED, RESULTS):
-    _p.mkdir(parents=True, exist_ok=True)
+    try:
+        _p.mkdir(parents=True, exist_ok=True)
+    except OSError:
+        pass
 
 # --- inputs -----------------------------------------------------------------
 PSI_ZIP = RAW / "psi.zip"

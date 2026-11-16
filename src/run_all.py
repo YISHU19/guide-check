@@ -30,6 +30,7 @@ STAGES = [
     ("v2     market-drift correction", "improve_v2.py"),
     ("M4     comparable-sales index", "comps.py"),
     ("M5     calibration residual distribution", "residuals.py"),
+    ("M6     typed-in comps error by segment", "comps_errors.py"),
     ("ABL    feature-group ablations", "ablation.py"),
 ]
 

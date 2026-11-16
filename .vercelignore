@@ -1,0 +1,24 @@
+# Only the web app, src/ and the five serving artefacts are deployed.
+.venv/
+**/__pycache__/
+app/
+docs/
+results/
+predictions/
+data/raw/
+data/reference/
+data/processed/splits.json
+data/processed/sales_clean.parquet
+data/processed/*.json
+artefacts/model_xgb*
+artefacts/interval.pkl
+artefacts/*.json
+!artefacts/comps_errors.json
+/*.pdf
+/*.png
+/*.svg
+/PLAN-NOTES.md
+/make_*.py
+/RUNNING.md
+.env*
+.vercel/

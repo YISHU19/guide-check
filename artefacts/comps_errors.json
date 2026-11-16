@@ -1,0 +1,15 @@
+{
+  "median_ape_pct": {
+    "metro": {
+      "house": 14.3,
+      "unit": 21.6
+    },
+    "regional": {
+      "house": 18.1,
+      "unit": 30.9
+    }
+  },
+  "n_per_cell": 400,
+  "seed": 42,
+  "method": "test-set sales typed in via serve.value_manual"
+}
